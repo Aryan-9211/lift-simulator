@@ -2,7 +2,7 @@
 A simple and interactive way to simulate lifts using basic html, css and javascript.
 
 # UML Diagrams
-1- [Use-Case Diagram](https://app.creately.com/diagram/AgWzOmtfZ63/view) ![Lift Simulation Use Case Diagram - Rohan](https://user-images.githubusercontent.com/78433013/164129831-b8a48054-56de-49f9-803a-03c52be858e5.png)
+1- [Use-Case Diagram] ![Lift Simulation Use Case Diagram - Rohan](https://user-images.githubusercontent.com/78433013/164129831-b8a48054-56de-49f9-803a-03c52be858e5.png)
 <br />
 2- [Sequence Diagram](https://lucid.app/lucidchart/b00895bf-c430-457f-9119-6d53a580c9b4/edit?invitationId=inv_b41106a8-4aa3-4693-bcbb-13291067d332)![Sequence Diagram - Lift Simulation](https://user-images.githubusercontent.com/78433013/164129864-e86be779-bb80-4b78-862d-0946d31e77b2.png)
  <br />
