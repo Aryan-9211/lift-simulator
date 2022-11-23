@@ -175,7 +175,9 @@ function getButtons() {
 
 function make_lifts() {
   no_of_lifts = input_lifts.value;
+
   createLifts(no_of_lifts);
+
   for (lft of lifts) {
     let lift = lft.lift;
     lift.style.transform = null;
@@ -217,8 +219,18 @@ function start() {
   clearInterval(intervalId);
   q = [];
   lifts = [];
-  make_floors();
-  make_lifts();
+
+  if (input_floors.value > 15) {
+    alert("FLOORS CAN BE NO MORE THAN 15");
+    return;
+  } else if (input_lifts.value > 5) {
+    alert("LIFTS CAN'T BE MORE THAN 5");
+    return;
+  } else {
+    make_floors();
+    make_lifts();
+  }
+
   place_lifts();
   // set up buttons to listen for click event
   getButtons();
